@@ -30,7 +30,8 @@ Simply clone the repository to your machine and run `zig build`.
             Byte offset to end at. (default: end of file)
 
     -n, --nlines <usize>
-            Number of lines to print. (default: no limit) Note: The program will stop after n lines are printed, or when the end byte offset is reached. Whichever comes first.
+            Number of lines to print. (default: no limit) Note: The program will stop after n
+            lines are printed, or when the end byte offset is reached. Whichever comes first.
 
     -l, --line_length <usize>
             Number of bytes to print per line. (default: 16)
@@ -45,7 +46,8 @@ Simply clone the repository to your machine and run `zig build`.
             Disable color output (useful for piping output to readable file).
 
     -t, --utf8
-            Use UTF-8 encoding for output (Won't display control characters as unicode control symbols). Useful for piping output to readable file.
+            Use UTF-8 encoding for output (Won't display control characters as unicode control
+            symbols). Useful for piping output to readable file.
 
     <str>...
             File to read.
