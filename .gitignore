@@ -1,0 +1,26 @@
+# Ignore build artifacts
+zig-out/
+
+# Ignore temporary files
+*.o
+*.exe
+*.obj
+*.dll
+*.so
+*.dylib
+
+# Ignore dependency directories
+zig-cache/
+.zig-cache/
+zig-out/
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
